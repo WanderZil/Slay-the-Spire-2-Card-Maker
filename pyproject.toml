@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sts2-card-maker-desktop"
+version = "0.1.0"
+description = "Standalone desktop card renderer for Slay the Spire 2 style cards"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "slaythespire2.gg" }
+]
+dependencies = [
+  "Pillow>=10.0.0",
+  "numpy>=1.26.0",
+  "PySide6>=6.7.0"
+]
+keywords = ["slay the spire 2", "card maker", "desktop", "renderer"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Multimedia :: Graphics"
+]
+
+[project.urls]
+Homepage = "https://slaythespire2.gg"
+
+[project.scripts]
+sts2-card-maker = "sts2_card_maker.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["sts2_card_maker*"]
+
+[tool.setuptools.package-data]
+sts2_card_maker = []

@@ -1,0 +1,54 @@
+{
+  "cardW": 598,
+  "cardH": 844,
+  "outW": 748,
+  "outH": 876,
+  "atlases": [
+    "assets/atlases/ui_atlas_0.png",
+    "assets/atlases/ui_atlas_1.png"
+  ],
+  "regions": {
+    "ancient_banner.tres": { "atlas": 1, "region": { "x": 1, "y": 1, "w": 671, "h": 182 } },
+    "card_banner.tres": { "atlas": 1, "region": { "x": 674, "y": 1, "w": 653, "h": 145 } },
+    "card_frame_ancient_s.tres": { "atlas": 0, "region": { "x": 1, "y": 901, "w": 618, "h": 862 } },
+    "card_frame_attack_s.tres": { "atlas": 0, "region": { "x": 1320, "y": 83, "w": 598, "h": 844 } },
+    "card_frame_power_s.tres": { "atlas": 0, "region": { "x": 621, "y": 929, "w": 598, "h": 844 } },
+    "card_frame_quest_s.tres": { "atlas": 0, "region": { "x": 719, "y": 83, "w": 599, "h": 844 } },
+    "card_frame_skill_s.tres": { "atlas": 0, "region": { "x": 1221, "y": 929, "w": 598, "h": 844 } },
+    "card_portrait_border_attack_s.tres": { "atlas": 1, "region": { "x": 1329, "y": 1, "w": 551, "h": 420 } },
+    "card_portrait_border_power_s.tres": { "atlas": 1, "region": { "x": 674, "y": 148, "w": 551, "h": 420 } },
+    "card_portrait_border_skill_s.tres": { "atlas": 1, "region": { "x": 1313, "y": 423, "w": 551, "h": 420 } },
+    "energy_colorless.tres": { "atlas": 1, "region": { "x": 237, "y": 953, "w": 71, "h": 71 } },
+    "energy_defect.tres": { "atlas": 1, "region": { "x": 237, "y": 879, "w": 71, "h": 72 } },
+    "energy_ironclad.tres": { "atlas": 0, "region": { "x": 1440, "y": 1948, "w": 74, "h": 74 } },
+    "energy_necrobinder.tres": { "atlas": 1, "region": { "x": 1182, "y": 706, "w": 74, "h": 69 } },
+    "energy_quest.tres": { "atlas": 1, "region": { "x": 1866, "y": 829, "w": 74, "h": 74 } },
+    "energy_regent.tres": { "atlas": 1, "region": { "x": 1942, "y": 829, "w": 74, "h": 74 } },
+    "energy_silent.tres": { "atlas": 1, "region": { "x": 1182, "y": 630, "w": 74, "h": 74 } }
+  },
+  "bannerHsv": {
+    "basic": { "h": 1.0, "s": 0.0, "v": 0.85 },
+    "common": { "h": 1.0, "s": 0.0, "v": 0.85 },
+    "uncommon": { "h": 1.0, "s": 1.0, "v": 1.0 },
+    "rare": { "h": 0.563, "s": 1.198, "v": 1.14 },
+    "curse": { "h": 0.27, "s": 1.1, "v": 0.9 },
+    "event": { "h": 0.875, "s": 0.85, "v": 0.9 },
+    "quest": { "h": 0.515, "s": 1.727, "v": 0.9 },
+    "status": { "h": 0.634, "s": 0.35, "v": 0.8 },
+    "ancient": { "h": 0.0, "s": 0.2, "v": 0.9 }
+  },
+  "frameHsv": {
+    "ironclad": { "h": 0.025, "s": 0.85, "v": 1.0 },
+    "silent": { "h": 0.32, "s": 0.45, "v": 1.2 },
+    "defect": { "h": 0.55, "s": 0.9, "v": 1.0 },
+    "necrobinder": { "h": 0.965, "s": 0.55, "v": 1.2 },
+    "regent": { "h": 0.12, "s": 1.5, "v": 1.2 },
+    "colorless": { "h": 1.0, "s": 0.0, "v": 1.2 },
+    "quest": { "h": 1.0, "s": 1.0, "v": 1.0 }
+  },
+  "typePlaque": "assets/type_plaque.png",
+  "fonts": {
+    "bold": "assets/fonts/Kreon-Bold.ttf",
+    "regular": "assets/fonts/Kreon-Regular.ttf"
+  }
+}
