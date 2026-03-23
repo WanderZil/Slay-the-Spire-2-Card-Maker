@@ -20,6 +20,10 @@ Official website and full database tools: [slaythespire2.gg](https://slaythespir
 - Ancient-specific tune panel (banner/title/art parameters)
 - Live preview and one-click export
 
+## Screenshots
+
+![STS2 Card Maker Desktop UI](docs/screenshots/sts2-card-maker-desktop-ui.png)
+
 ## Included assets
 
 This repository includes only card-maker related assets used for rendering:
@@ -62,9 +66,7 @@ src/sts2_card_maker/
 
 ## Notes
 
-- This project is focused on single-card rendering, not batch generation.
-- If you need production card data, multilingual pages, or SEO pages, use the main site:
-  [https://slaythespire2.gg](https://slaythespire2.gg)
+- Live online experience: [https://slaythespire2.gg](https://slaythespire2.gg)
 
 ## License
 
